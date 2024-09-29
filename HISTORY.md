@@ -1,10 +1,17 @@
 # History
 
+### [0.0.4](https://github.com/zhuoqun-chen/blender_vscode/compare/0.0.3...0.0.4)
+
+> 29 September 2024
+
+- chore: test date in changelog is correct [`e9072a0`](https://github.com/zhuoqun-chen/blender_vscode/commit/e9072a03859de3c0bd5c4aa56ef970c2d35a6c7f)
+
 ### [0.0.3](https://github.com/zhuoqun-chen/blender_vscode/compare/0.0.2...0.0.3)
 
 > 29 September 2024
 
 - chore: vscode settings & npm run with npx [`f77c287`](https://github.com/zhuoqun-chen/blender_vscode/commit/f77c28749b4bd4cab55c9ad630c7055566b73074)
+- 🔖 Bump version: 0.0.2 → 0.0.3 [`892660d`](https://github.com/zhuoqun-chen/blender_vscode/commit/892660d8d5fec365415ee4bf378a5fb1e26ca5ad)
 
 ### [0.0.2](https://github.com/zhuoqun-chen/blender_vscode/compare/0.0.1...0.0.2)
 

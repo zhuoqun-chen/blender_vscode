@@ -1,0 +1,28 @@
+{
+	"name": "node & ts",
+    // 1-22-bookworm: ${mcr_wrapper_project_version}-${docker_node_version}-${docker_os_version}
+    // https://github.com/devcontainers/images/blob/main/src/typescript-node/manifest.json
+    // https://github.com/nodejs/docker-node/blob/main/22/bookworm/Dockerfile
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+	"runArgs": [
+		"--env-file", "${localWorkspaceFolder}/.devcontainer/.env"
+    ],
+	"features": {
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/devcontainers/features/python:1": {},
+		"ghcr.io/devcontainers-contrib/features/apt-packages:1": {
+			"packages": "fzf"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"zqchen.zkit",
+				"dbaeumer.vscode-eslint",
+				"connor4312.esbuild-problem-matchers",
+				"ms-vscode.extension-test-runner",
+				"shd101wyy.markdown-preview-enhanced"
+			]
+		}
+	}
+}

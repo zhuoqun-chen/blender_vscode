@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## [0.0.1] - 2024-09-28
+
+### Changed
+
+- Create fork from upstream version `0.0.24`
+
 ## [0.0.24] - 2024-09-12
 
 ### Fixed

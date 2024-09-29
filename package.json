@@ -1,9 +1,10 @@
 {
-  "name": "blender-development",
-  "displayName": "Blender Development",
+  "name": "blender-development-fork",
+  "displayName": "Blender Development (Fork)",
   "description": "Tools to simplify Blender development.",
-  "version": "0.0.24",
-  "publisher": "JacquesLucke",
+  "version": "0.0.1",
+  "publisher": "zqchen",
+  "icon": "icons/blender_icon.png",
   "license": "MIT",
   "engines": {
     "vscode": "^1.28.0"

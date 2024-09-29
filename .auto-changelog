@@ -2,5 +2,6 @@
   "output": "HISTORY.md",
   "template": "templates/compact.hbs",
   "unreleased": true,
-  "commitLimit": false
+  "commitLimit": false,
+  "sortCommits": "date"
 }

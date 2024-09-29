@@ -1,0 +1,8 @@
+{
+    "git": {
+      "changelog": "npx auto-changelog --stdout -v 0.0.1"
+    },
+    "hooks": {
+      "after:bump": "npx auto-changelog -p"
+    }
+}

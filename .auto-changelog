@@ -1,4 +1,6 @@
 {
   "output": "HISTORY.md",
-  "template": "templates/compact.hbs"
+  "template": "templates/compact.hbs",
+  "unreleased": true,
+  "commitLimit": false
 }

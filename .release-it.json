@@ -1,8 +1,8 @@
 {
     "git": {
-      "changelog": "npx auto-changelog --stdout -v 0.0.1"
+      "changelog": "npx auto-changelog --stdout --starting-version 0.0.2 --prepend --commit-limit false --unreleased --template templates/compact.hbs"
     },
     "hooks": {
-      "after:bump": "npx auto-changelog -p"
+      "after:bump": "npx auto-changelog --package --starting-version 0.0.2 --prepend --commit-limit false --unreleased --template templates/compact.hbs"
     }
 }

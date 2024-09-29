@@ -1,8 +1,14 @@
 {
+    "npm": {"publish": false},
     "git": {
-      "changelog": "npx auto-changelog --stdout --starting-version 0.0.2 --prepend --commit-limit false --unreleased --template templates/compact.hbs"
+      "changelog": "npx auto-changelog --stdout --starting-version 0.0.2 --prepend --sort-commits date --commit-limit false --unreleased --template templates/compact.hbs",
+      "requireCleanWorkingDir": false,
+      "commit": true,
+      "commitMessage": "🔖 Bump version to ${version}",
+      "tag": true,
+      "push": false
     },
     "hooks": {
-      "after:bump": "npx auto-changelog --package --starting-version 0.0.2 --prepend --commit-limit false --unreleased --template templates/compact.hbs"
+      "after:bump": "npx auto-changelog --package --starting-version ${version} --prepend --sort-commits date --commit-limit false --unreleased --template templates/compact.hbs"
     }
 }

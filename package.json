@@ -290,7 +290,7 @@
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "release": "release-it"
+    "release": "npx release-it"
   },
   "devDependencies": {
     "@types/mocha": "^2.2.42",

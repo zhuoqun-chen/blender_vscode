@@ -2,7 +2,7 @@
   "name": "blender-development-fork",
   "displayName": "Blender Development (Fork)",
   "description": "Tools to simplify Blender development.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "zqchen",
   "icon": "icons/blender_icon_256x256.png",
   "license": "MIT",
